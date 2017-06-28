@@ -12,3 +12,6 @@ return sum;
 }
 
 multiplesOfThreeAndFive(3,5);
+
+// To do for next session: Link JS to index, link JQuery, write code for checking answer in text box to var sum when check is clicked,
+// write css for either an incorrect or correct answer that is hidden and toggled with JS when sum is checked with answer
