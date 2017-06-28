@@ -1,0 +1,37 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+.title{
+  text-align: center;
+  margin: 10 0 0 0;
+  font-size: 60px;
+
+
+}
+.problemHeader{
+  margin: 0 0 0 150;
+  font-weight: bold;
+  color: navy;
+}
+
+
+.problemtext{
+
+  border: 2px solid;
+  margin: 10 140 0 140;
+  padding: 5 0 5 5;
+}
+.answercontent{
+  margin: 20 0 0 150
+}
+
+.answer{
+  font-weight: bold;
+  color: navy;
+}
+.checkanswer{
+ font-size: 50;
+ 
+}
