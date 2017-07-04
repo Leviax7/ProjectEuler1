@@ -11,7 +11,17 @@ function multiplesOfThreeAndFive(n1,n2){
 return sum;
 }
 
+$('.checkbutton').click(){
+  if ( $('.answerinput').val() === sum ) {
+    $('.output').text('Correct! Good luck on the next question.')
+  }
+  else {
+    $('.output').text('Sorry, try again!')
+  }
+}
+
+
 multiplesOfThreeAndFive(3,5);
 
-// To do for next session: Link JS to index, link JQuery, write code for checking answer in text box to var sum when check is clicked,
-// write css for either an incorrect or correct answer that is hidden and toggled with JS when sum is checked with answer
+// To do for next session:  write code for checking answer in text box to var sum when check is clicked,
+// Output incorrect or correct response based on answer provided be user.
