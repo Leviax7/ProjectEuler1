@@ -23,6 +23,7 @@
 }
 .answercontent{
   margin: 20px 0px 0px 150px;
+
 }
 
 .answer{
@@ -32,4 +33,10 @@
 .checkbutton{
  font-size: 50px;
 
+}
+.output{
+  margin: 20px 0px 0px 0px;
+  font-size: 20px;
+  display: inline;
+  padding-left: 10px;
 }
