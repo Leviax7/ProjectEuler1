@@ -11,17 +11,20 @@ function multiplesOfThreeAndFive(n1,n2){
 return sum;
 }
 
-$('.checkbutton').click(){
-  if ( $('.answerinput').val() === sum ) {
-    $('.output').text('Correct! Good luck on the next question.')
-  }
-  else {
-    $('.output').text('Sorry, try again!')
+function rightOrWrong(){
+  if ($('.answerinput').val() == sum) {
+    $('.output').text('Correct! Good luck on the next problem.');
+  } else {
+    $('.output').text('Sorry, please try again!');
   }
 }
 
 
 multiplesOfThreeAndFive(3,5);
+$('.checkbutton').click(function(){
+  rightOrWrong();
+});
+
 
 // To do for next session:  write code for checking answer in text box to var sum when check is clicked,
 // Output incorrect or correct response based on answer provided be user.
