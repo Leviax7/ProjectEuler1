@@ -27,6 +27,4 @@ $('.checkbutton').click(function(){
 	rightOrWrong();
 });
 
-
-// To do for next session:  write code for checking answer in text box to var sum when check is clicked,
-// Output incorrect or correct response based on answer provided be user.
+.
