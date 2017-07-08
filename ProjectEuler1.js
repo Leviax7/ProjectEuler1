@@ -27,4 +27,4 @@ $('.checkbutton').click(function(){
 	rightOrWrong();
 });
 
-.
+
