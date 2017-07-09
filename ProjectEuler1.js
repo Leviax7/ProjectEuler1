@@ -23,8 +23,15 @@ function rightOrWrong(){
 
 
 multiplesOfThreeAndFive(3,5);
-$('.checkbutton').click(function(){
+$('.checkbutton').on('click', function(){
 	rightOrWrong();
 });
 
+$('.answerinput').keyup(function(event){
+	event.preventDefault();
+if (event.which == 13) {
+	rightOrWrong();
+}
+
+});
 
